@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+}
+
+.contain-wrap {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.main-container {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 47px -9px rgba(56,36,56,0.78);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.weather-info h1 {
+  font-size: 40px;
+  margin-bottom: 120px;
+  font-weight: 600;
+}
+
+.weather-info img{
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 168px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.weather-info-temp {
+  font-size: 50px;
+  font-weight: 600;
+}
